@@ -38,3 +38,45 @@
     color: white;
     background: #00B0DC;
   }
+  .titulo-servicios{
+    color:#00B0DC;
+    font-size: 35px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight:700;
+  }
+ .card-diseño{
+    margin-bottom: 20px;
+    width:300px;
+    height:250px;
+    border: solid #00B0DC;
+ }
+ .descrpiccion-service{
+   margin-top: 100px;
+   color:#fff;
+   font-family: monospace;
+   font-size: 18px;
+ }
+ .img-1{
+    background: url(https://isil.pe/blog/wp-content/uploads/2023/02/desarrollo-software-informacion.webp);
+    background-size: cover;
+ }
+ .img-2{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLlSIOuId8_twlr1W30fBYDiE3O6Xa1R950ugfSDMBRQ&s);
+    background-size:cover;
+ }
+ .img-3{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJf_gwcZBajZD51wxt1WrDeM4UNDUaN4gh8drzVilUWm3TUX_9637qMecxexcVxSw8bV0&usqp=CAU);
+    background-size:cover;
+ }
+ .img-4{
+    background:url();
+    background-size:cover;
+ }
+ .img-5{
+    background:url();
+    background-size:cover;
+ }
+ .img-6{
+    background:url();
+    background-size:cover;
+ }
