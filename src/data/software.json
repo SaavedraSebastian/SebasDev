@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Ingeniería de Software en Upao",
+        "slug": "software-1",
+        "description": "Ingeniería de Software en Upao",
+        "picture": "https://www.educaciontrespuntocero.com/wp-content/uploads/2020/04/mejores-bancos-de-imagenes-gratis.jpg"
+    },
+ 
+    {
+        "name": "Conoce las ultimas tendencias en Ingeniería",
+        "slug": "software-2",
+        "description": "software 2",
+        "picture": "https://img.freepik.com/foto-gratis/retrato-abstracto-ojo-elegancia-mujeres-jovenes-generado-ai_188544-9712.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1713312000&semt=ais"
+    },
+    {
+        "name": "software 3",
+        "slug": "software-3",
+        "description": "software 3",
+        "picture": "https://img.odcdn.com.br/wp-content/uploads/2022/12/shutterstock_1932042689.jpg"
+    },
+    {
+        "name": "software 4",
+        "slug": "software-4",
+        "description": "software",
+        "picture": "https://img.freepik.com/foto-gratis/esfera-azul-brillante-sostenida-mano-humana-generada-ia_188544-41033.jpg"
+    }
+]

@@ -1,0 +1,8 @@
+.mission-description {
+    display: none;
+  }
+  
+  .text-center:hover .mission-description {
+    display: block;
+  }
+  
