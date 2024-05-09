@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Ingeniería de Software en Upao",
+        "slug": "software-5",
+        "description": "Ingeniería de Software en Upao",
+        "picture": "https://static2.upao.edu.pe/2/16518801171-sistemas.jpg"
+    },
+ 
+    {
+        "name": "Conoce las ultimas tendencias en Ingeniería",
+        "slug": "software-6",
+        "description": "software 2",
+        "picture": "https://p.calameoassets.com/230124175054-75a5cd63f070ba8e3eb904d0d5a2a3f5/p1.jpg"
+    },
+    {
+        "name": "software 3",
+        "slug": "software-7",
+        "description": "software 3",
+        "picture": "https://www.madrugaconsulting.es/wp-content/uploads/2018/11/iso45001.jpg"
+    },
+    {
+        "name": "software 4",
+        "slug": "software-8",
+        "description": "software",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN-ptd5nEUVSREQc8g_sM6gnKlncww7Jg4JPcBfMuo_g&s"
+    }
+]

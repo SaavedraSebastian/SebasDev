@@ -48,7 +48,6 @@
     margin-bottom: 20px;
     width:300px;
     height:250px;
-    border: solid #00B0DC;
  }
  .descrpiccion-service{
    margin-top: 100px;
@@ -69,14 +68,38 @@
     background-size:cover;
  }
  .img-4{
-    background:url();
+    background:url(https://www.sydle.com/blog/assets/post/e-learning-615b4d7b0e94dd1b0fc8d27e/e-learning.jpg);
     background-size:cover;
  }
  .img-5{
-    background:url();
+    background:url(https://www.auditool.org/images/images/O730000.jpg);
     background-size:cover;
  }
  .img-6{
-    background:url();
+    background:url(https://www.repsol.com/content/dam/repsol-corporate/es/energia-e-innovacion/robot-machine-learning.jpg.transform/rp-rendition-sm/image.jpg);
     background-size:cover;
  }
+ .img-7{
+   background: url(https://www.racksolutions.com/news//app/uploads/AdobeStock_87909563.jpg);
+   background-size:cover;
+ }
+.img-8{
+   background: url(https://www.comunicare.es/wp-content/uploads/2021/03/Que-diferencia-hay-entre-desarrollo-web-y-diseno-web-1.jpg);
+   background-size:cover ;
+}
+.reconocimientos{
+   font-family: "Poetsen One", sans-serif;
+   color:#000;
+   font-size: 30px;
+   font-weight: 700;
+   margin-left: 20px;
+
+}
+.img-liga{
+   width:350px ;
+   height: 450px;
+   margin-left: 20px;
+}
+.btn-brand-1{
+   display:none;
+}

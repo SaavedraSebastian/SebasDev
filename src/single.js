@@ -1,5 +1,4 @@
 import Software from './data/software.json';
-
 const Single = () => {
 
     const currentRoute = window.location.pathname;

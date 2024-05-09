@@ -46,7 +46,7 @@ const Service = () => {
     </Card>
                 </div>
                 <div className='col-md-3'>
-                <Card className='card-diseño'>
+                <Card className='card-diseño img-6'>
       <Card.Body>
       <div className='text-center descrpiccion-service'>
        Machine Learning</div>
@@ -54,7 +54,7 @@ const Service = () => {
     </Card>
                 </div>
                 <div className='col-md-3'>
-                <Card className='card-diseño img-6'>
+                <Card className='card-diseño img-7'>
       <Card.Body>
       <div className='text-center descrpiccion-service'>
        Data Center</div>
@@ -62,7 +62,7 @@ const Service = () => {
     </Card>
                 </div>
                 <div className='col-md-3'>
-                <Card className='card-diseño img-7'>
+                <Card className='card-diseño img-8'>
       <Card.Body>
       <div className='text-center descrpiccion-service'>
        Desarrollo web personalizado</div>
