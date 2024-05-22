@@ -4,7 +4,8 @@ const Service = () => {
       <service>
         <div className="container">
             <div className='row'>
-                <h1 className="text-center mt-5 mb-5 titulo-servicios">Nuestros Servicios</h1>
+                <h1 className="text-start mt-5 mb-5 titulo-servicios">Nuestros Servicios</h1>
+                
                 <div className='col-md-3'>
                 <Card className='card-diseño img-1'>
       <Card.Body>

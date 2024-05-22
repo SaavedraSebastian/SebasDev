@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
 .bg-header{
    border-top: 4px solid #00B0DC;
 }
@@ -46,7 +48,7 @@
   .titulo-servicios{
     color:#00B0DC;
     font-size: 35px;
-    font-family: "Poetsen One", sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight:700;
   }
  .card-diseño{
@@ -56,45 +58,48 @@
     border:none
  }
  .descrpiccion-service{
-   margin-top: 100px;
+   margin-top: 200px;
    color:#fff;
-   font-family: monospace;
+   font-family: 'Roboto Condensed', sans-serif;
    font-size: 18px;
+   font-weight: 400;
+   background: #004AAD;
  }
  .img-1{
-    background: url(https://isil.pe/blog/wp-content/uploads/2023/02/desarrollo-software-informacion.webp);
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    url('https://isil.pe/blog/wp-content/uploads/2023/02/desarrollo-software-informacion.webp');
     background-size: cover;
  }
  .img-2{
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLlSIOuId8_twlr1W30fBYDiE3O6Xa1R950ugfSDMBRQ&s);
+    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLlSIOuId8_twlr1W30fBYDiE3O6Xa1R950ugfSDMBRQ&s);
     background-size:cover;
  }
  .img-3{
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJf_gwcZBajZD51wxt1WrDeM4UNDUaN4gh8drzVilUWm3TUX_9637qMecxexcVxSw8bV0&usqp=CAU);
+    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJf_gwcZBajZD51wxt1WrDeM4UNDUaN4gh8drzVilUWm3TUX_9637qMecxexcVxSw8bV0&usqp=CAU);
     background-size:cover;
  }
  .img-4{
-    background:url(https://www.sydle.com/blog/assets/post/e-learning-615b4d7b0e94dd1b0fc8d27e/e-learning.jpg);
+    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://www.sydle.com/blog/assets/post/e-learning-615b4d7b0e94dd1b0fc8d27e/e-learning.jpg);
     background-size:cover;
  }
  .img-5{
-    background:url(https://www.auditool.org/images/images/O730000.jpg);
+    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://www.auditool.org/images/images/O730000.jpg);
     background-size:cover;
  }
  .img-6{
-    background:url(https://www.repsol.com/content/dam/repsol-corporate/es/energia-e-innovacion/robot-machine-learning.jpg.transform/rp-rendition-sm/image.jpg);
+    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://www.repsol.com/content/dam/repsol-corporate/es/energia-e-innovacion/robot-machine-learning.jpg.transform/rp-rendition-sm/image.jpg);
     background-size:cover;
  }
  .img-7{
-   background: url(https://www.racksolutions.com/news//app/uploads/AdobeStock_87909563.jpg);
+   background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://www.racksolutions.com/news//app/uploads/AdobeStock_87909563.jpg);
    background-size:cover;
  }
 .img-8{
-   background: url(https://www.comunicare.es/wp-content/uploads/2021/03/Que-diferencia-hay-entre-desarrollo-web-y-diseno-web-1.jpg);
+   background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://www.comunicare.es/wp-content/uploads/2021/03/Que-diferencia-hay-entre-desarrollo-web-y-diseno-web-1.jpg);
    background-size:cover ;
 }
 .reconocimientos{
-   font-family: "Poetsen One", sans-serif;
+   font-family: 'Roboto Condensed', sans-serif;
    color:#000;
    font-size: 30px;
    font-weight: 700;
@@ -110,29 +115,11 @@
    display:none;
 }
 .footer{
-   background:#0F4191;
+   background:#f3f5fa;
 }
 ::selection {
    color: white;
    background: #516171;
  }
- #milestone {
-   background: linear-gradient(rgba(1, 48, 115, 0.9), rgba(1, 48, 115, 0.9)), url('https://www.gradhermetic.com/sites/default/files/inline-images/Noticias%20Gradhermetic.%20Edificios%20de%20cristal%20y%20acero.%20Son%20realmente%20eficientes.JPG');
-   background-size: cover;
- }
- 
- #milestone p {
-   color: #fff;
-   font-family: "Rooboto Condensed", sans-serif;
-   font-size: 24px;
-   margin-bottom: 70px;
-   margin: 5px;
-   font-weight: 700;
- }
- 
- #milestone .display-4 {
-   color: #fff;
-   font-weight: 700;
-   font-size: 90px;
- }
+
  

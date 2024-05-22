@@ -1,17 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
 .contenedor-descripcion{
   border:1px solid #00B0DC;
 }
-.intro {
-  text-align: center;
-  margin-bottom: 50px;
-}
+
 
 .titulo-descripcion {
-  font-size: 20px;
+  font-size: 50px;
   font-weight: bold;
-  color: #007bff;
+  color: #00B0DC;
 }
-
+.pre-title{
+  font-family: "Roboto Condensed", sans-serif;
+   text-transform: uppercase;
+   font-size:15px;
+}
+.progress-bar-1 {
+  height: 5px;
+  margin-top: 5px;
+  width: 7%;
+  margin-bottom: 15px;
+}
+.fondo-1{
+  background-color: #004AAD; 
+}
 .contenedor-descripcion {
   padding: 20px;
 }
@@ -28,10 +40,31 @@ margin-bottom: 20px;
   color:#00B0DC;
 }
 
-.vision-description {
-  font-size: 15px;
-  color: #000;
-  margin-top: 20px;
+.description-informacion {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  opacity: 0.75;
+  letter-spacing: 0.5px;
   font-family: "Roboto Condensed", sans-serif;
-  font-weight: 400;
+  margin-top: 10px;
+
+}
+.icon{
+  display: flex;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  color: #004AAD;
+  font-size:47px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color:rgb(0, 176, 220,0.15);
+}
+.info-titulo{
+  margin-bottom:15px;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: "Roboto Condensed", sans-serif;
 }

@@ -13,7 +13,7 @@ import Basic from './layout/basic';
 import Message from './message';
 import Service from './service';
 import Liga from './liga';
-import Datos from './datos';
+
 
 
 const router = createBrowserRouter([
@@ -38,9 +38,6 @@ const router = createBrowserRouter([
                     </div>
                     <div className='col-md-12'>
                         <Service></Service>
-                    </div>
-                    <div className='col-md-12'>
-                        <Datos></Datos>
                     </div>
                 </>
             },
