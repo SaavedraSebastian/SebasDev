@@ -12,31 +12,31 @@ const Message = () => {
         <div className='row'>
           <div className='col-md-4'>
             <Card>
-              <Card.Body>
+              <Card.Body className='contenedor-descripcion'>
                 <div className='text-center icon'>
                   <i className='feather-icon' data-feather='eye'></i>
                 </div>
-                <Card.Title className='text-center'>Visión</Card.Title>
+                <Card.Title className='text-center message'>Visión</Card.Title>
               </Card.Body>
             </Card>
           </div>
           <div className='col-md-4'>
             <Card>
-              <Card.Body>
+              <Card.Body className='contenedor-descripcion'>
                 <div className='text-center icon'>
                   <i className='feather-icon' data-feather='heart'></i>
                 </div>
-                <Card.Title className='text-center'>Misión</Card.Title>
+                <Card.Title className='text-center message'>Misión</Card.Title>
               </Card.Body>
             </Card>
           </div>
           <div className='col-md-4'>
             <Card>
-              <Card.Body>
+              <Card.Body className='contenedor-descripcion'>
                 <div className='text-center icon'>
                   <i className='feather-icon' data-feather='clipboard'></i>
                 </div>
-                <Card.Title className='text-center'>Valores</Card.Title>
+                <Card.Title className='text-center message'>Valores</Card.Title>
               </Card.Body>
             </Card>
           </div>

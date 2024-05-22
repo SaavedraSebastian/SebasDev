@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 const Header = () => {
     return <header>
-            <Navbar expand="lg" className="bg-body-tertiary">
+            <Navbar expand="lg" className="bg-body-tertiary bg-header ">
                 <Container>
                     <Navbar.Brand>
                         <img src="empresa.png" alt="imagen-empresa" className="imagen-logo" />

@@ -1,3 +1,6 @@
+.bg-header{
+   border-top: 4px solid #00B0DC;
+}
 .social-media{
     list-style: none;
     display: inline-flex;
@@ -18,12 +21,14 @@
 }
 .contact{
     margin-left: 50px;
+    background:#f3f5fa;
+    padding: 10px 25px 40px;
+    margin-top: 3px;
     
 }
 .img-slider{
     width: 400px;
     height: 500px;
-    border-radius: 10px;
 }
 .btn-brand {
     padding: 9px 24px;
@@ -111,3 +116,23 @@
    color: white;
    background: #516171;
  }
+ #milestone {
+   background: linear-gradient(rgba(1, 48, 115, 0.9), rgba(1, 48, 115, 0.9)), url('https://www.gradhermetic.com/sites/default/files/inline-images/Noticias%20Gradhermetic.%20Edificios%20de%20cristal%20y%20acero.%20Son%20realmente%20eficientes.JPG');
+   background-size: cover;
+ }
+ 
+ #milestone p {
+   color: #fff;
+   font-family: "Rooboto Condensed", sans-serif;
+   font-size: 24px;
+   margin-bottom: 70px;
+   margin: 5px;
+   font-weight: 700;
+ }
+ 
+ #milestone .display-4 {
+   color: #fff;
+   font-weight: 700;
+   font-size: 90px;
+ }
+ 

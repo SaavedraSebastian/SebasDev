@@ -1,31 +1,37 @@
-.vision-description{
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 17px;
-  font-weight: 400;
-  margin-top: 30px;
-  color: #999;
-  animation: animacionTexto 4s infinite;
-  font-size: 16px;
-  line-height: 1.6;
-  animation: fadeInParagraph 1s ease forwards; 
-  animation-delay: 0.9s;
+.contenedor-descripcion{
+  border:1px solid #00B0DC;
 }
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.intro {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-@keyframes fadeInParagraph {
-  from {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.titulo-descripcion {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.contenedor-descripcion {
+  padding: 20px;
+}
+
+.icon {
+margin-bottom: 20px;
+  font-size: 20px;
+  color: #00B0DC;
+}
+
+.message {
+  font-size: 15px;
+  font-weight: bold;
+  color:#00B0DC;
+}
+
+.vision-description {
+  font-size: 15px;
+  color: #000;
+  margin-top: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
 }

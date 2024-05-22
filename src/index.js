@@ -1,17 +1,20 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
-import { createRoot } from "react-dom/client";
-import Main from "./main";
-import Aside from "./aside";
+import './script.js';
+import { createRoot } from 'react-dom/client';
 import {
     createBrowserRouter,
     RouterProvider,
-} from "react-router-dom";
+} from 'react-router-dom';
+import Main from './main';
+import Aside from './aside';
 import Single from './single';
 import Basic from './layout/basic';
-import Message from "./message";
-import Service from "./service";
+import Message from './message';
+import Service from './service';
 import Liga from './liga';
+import Datos from './datos';
+
 
 const router = createBrowserRouter([
     {
@@ -35,6 +38,9 @@ const router = createBrowserRouter([
                     </div>
                     <div className='col-md-12'>
                         <Service></Service>
+                    </div>
+                    <div className='col-md-12'>
+                        <Datos></Datos>
                     </div>
                 </>
             },

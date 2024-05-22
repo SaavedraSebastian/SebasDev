@@ -1,7 +1,7 @@
 const Aside = () => {
     return <aside>
     <form className="row g-3 contact">
-        <h1 className="text-center mt-5">Registrate</h1>
+        <h1 className="text-center mt-3">Registrate</h1>
         <div className="col-md-12">
           <label for="inputnombre" className="form-label">
           <i data-feather="user"></i> Nombre y Apellido</label>
@@ -11,7 +11,7 @@ const Aside = () => {
         <div className="col-md-6">
             <label for="inputPassword4" className="form-label">
             <i data-feather="smartphone"></i> Telefono</label>
-            <input type="number" className="form-control" id="telefono" placeholder="Telefono"></input>
+            <input type="tel" className="form-control" id="telefono" placeholder="Telefono"></input>
           </div>
           <div className="col-md-6">
             <label for="inputPassword4" className="form-label">
