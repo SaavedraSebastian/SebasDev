@@ -1,6 +1,7 @@
 import { Card } from 'react-bootstrap';
 import './Message.css'; 
 
+
 const Message = () => {
   return (
     <message>
@@ -22,9 +23,6 @@ const Message = () => {
           <div className='col-md-4'>
             <Card>
               <Card.Body>
-                <div className='text-hover'>
-                  <p className='mission-description'>En SystemandSoftware, nuestra misión es impulsar el éxito y la competitividad de nuestros clientes en el mundo digital. Nos comprometemos a proporcionar soluciones tecnológicas innovadoras que satisfagan sus necesidades, mejorando la eficiencia, optimizando procesos y generando valor agregado.</p>
-                </div>
                 <div className='text-center icon'>
                   <i className='feather-icon' data-feather='heart'></i>
                 </div>
@@ -42,6 +40,9 @@ const Message = () => {
               </Card.Body>
             </Card>
           </div>
+          <p className='vision-description'>En SystemandSoftware, nuestra visión es liderar la transformación digital y la excelencia tecnológica mediante el diseño innovador de sistemas y el desarrollo de software de calidad, siendo el socio estratégico preferido para soluciones tecnológicas avanzadas.</p>
+          <p className='vision-description'>En SystemandSoftware, nuestra misión es impulsar el éxito y la competitividad de nuestros clientes en el mundo digital. Nos comprometemos a proporcionar soluciones tecnológicas innovadoras que satisfagan sus necesidades, mejorando la eficiencia, optimizando procesos y generando valor agregado.</p>
+          <p className='vision-description'>Innovación Calidad Excelencia Compromiso Crecimiento Sostenibilidad Colaboración Integridad Responsabilidad</p>
         </div>
       </div>
     </message>
