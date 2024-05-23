@@ -55,6 +55,7 @@ const Message = () => {
       </div>
     </div>
   </div>
+  
 </div>
     </message>
   );

@@ -27,7 +27,7 @@ const Main = () => {
                     }}>
                         <img className='d-block w-100 dark-image img-slider' src={it.picture}></img>
                         <Carousel.Caption>
-                            <button className="btn-brand">Conoce más</button>
+                            <button className="btn-conoce">Conoce más</button>
                         </Carousel.Caption>
                     </Carousel.Item>);
                 })

@@ -10,7 +10,8 @@ const Service = () => {
                 <Card className='card-diseño img-1'>
       <Card.Body>
         <div className='text-center descrpiccion-service color-text'>
-       Desarrollo web personalizado</div>
+       Desarrollo web personalizado
+       </div>.
       </Card.Body>
     </Card>
                 </div>
