@@ -54,6 +54,9 @@ const Message = () => {
         <span class="ml-2 info-titulo">Desarrollo de Aplicaciones Móviles</span>
       </div>
     </div>
+    <div className="col-12">
+          <button type="submit" className="btn-conoce-1">Conoce más</button>
+        </div>
   </div>
   
 </div>

@@ -6,7 +6,7 @@
 .social-media{
     list-style: none;
     display: inline-flex;
-    margin-left: 5px;
+    margin-left: 25px;
 }
 .social-icon{
     margin-left: 50px;
@@ -23,7 +23,7 @@
 }
 .contact{
     margin-left: 50px;
-    background:#f3f5fa;
+    background:#eff4f7;
     padding: 10px 25px 40px;
     margin-top: 3px;
     
@@ -59,7 +59,7 @@
 .btn-brand {
     padding: 9px 24px;
     font-weight: 500;
-    background: gray;
+    background: #00B0DC;
     color: #fff;
     border: none;
     text-decoration: none;
@@ -68,7 +68,7 @@
   .btn-brand:hover {
     color: white;
     animation: bounce 1s;
-    background: #00B0DC;
+    background: #004AAD;
   }
   @keyframes bounce {
    0%, 20%, 50%, 80%, 100% {
@@ -106,38 +106,48 @@
     background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
     url('https://isil.pe/blog/wp-content/uploads/2023/02/desarrollo-software-informacion.webp');
     background-size: cover;
+    animation: slideInUp 0.5s ease-out;
  }
  .img-2{
     background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLlSIOuId8_twlr1W30fBYDiE3O6Xa1R950ugfSDMBRQ&s);
     background-size:cover;
+    animation: slideInUp 0.5s ease-out;
  }
  .img-3{
     background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJf_gwcZBajZD51wxt1WrDeM4UNDUaN4gh8drzVilUWm3TUX_9637qMecxexcVxSw8bV0&usqp=CAU);
     background-size:cover;
+    animation: slideInUp 0.5s ease-out;
  }
  .img-4{
     background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://www.sydle.com/blog/assets/post/e-learning-615b4d7b0e94dd1b0fc8d27e/e-learning.jpg);
     background-size:cover;
+    animation: slideInUp 0.5s ease-out;
  }
  .img-5{
     background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://www.auditool.org/images/images/O730000.jpg);
     background-size:cover;
+    animation: slideInUp 0.5s ease-out;
  }
  .img-6{
     background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://www.repsol.com/content/dam/repsol-corporate/es/energia-e-innovacion/robot-machine-learning.jpg.transform/rp-rendition-sm/image.jpg);
     background-size:cover;
+    animation: slideInUp 0.5s ease-out;
  }
  .img-7{
    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://www.racksolutions.com/news//app/uploads/AdobeStock_87909563.jpg);
    background-size:cover;
+   animation: slideInUp 0.5s ease-out;
  }
 .img-8{
    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://www.comunicare.es/wp-content/uploads/2021/03/Que-diferencia-hay-entre-desarrollo-web-y-diseno-web-1.jpg);
    background-size:cover ;
+   animation: slideInUp 0.5s ease-out;
+   
 }
+
 .reconocimientos{
    font-family: 'Roboto Condensed', sans-serif;
-   color:#000;
+   color:#004AAD;
    font-size: 30px;
    font-weight: 700;
    margin-left: 20px;
@@ -152,7 +162,7 @@
    display:none;
 }
 .footer{
-   background:#f3f5fa;
+   background:#004AAD;
 }
 ::selection {
    color: white;
