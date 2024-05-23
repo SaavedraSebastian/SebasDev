@@ -39,7 +39,7 @@ const Aside = () => {
           </div>
         </div>
         <div className="col-12">
-          <button type="submit" className="btn btn-primary">Sign in</button>
+          <button type="submit" className="btn-conoce">Sign in</button>
         </div>
       </form>
        

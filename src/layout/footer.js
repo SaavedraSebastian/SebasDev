@@ -1,5 +1,5 @@
 const Footer = () => {
-    return <footer className="py-3 my-4 footer">
+    return <footer className="py-3 footer">
           <p className="text-center text-black ">© 2024 Saavedra Arroyo Sebastian Alonso, ICSI</p>
           <ul className="nav justify-content-center border-bottom pb-3 mb-3">
             <li className="nav-item"><a href="index.js" className="nav-link px-2 text-black">Inicio</a></li>
