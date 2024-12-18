@@ -14,11 +14,6 @@ import Message from './message';
 import Service from './service';
 import Liga from './liga';
 
-
-
-
-
-
 const router = createBrowserRouter([
     {
         path: "/",
